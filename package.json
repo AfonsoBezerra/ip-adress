@@ -1,0 +1,50 @@
+{
+  "name": "template",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "@styled-icons/evaicons-solid": "^10.34.0",
+    "axios": "^0.26.1",
+    "leaflet": "^1.7.1",
+    "leaflet-defaulticon-compatibility": "^0.1.1",
+    "leaflet-element": "^0.0.22",
+    "leaflet-geosearch": "^3.6.0",
+    "mapbox-gl": "^2.7.1",
+    "next": "12.1.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-input-mask": "^3.0.0-alpha.2",
+    "react-leaflet": "^3.2.5",
+    "react-map-gl": "^7.0.10",
+    "styled-components": "^5.3.3",
+    "styled-icons": "^10.45.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^16.2.3",
+    "@commitlint/config-conventional": "^16.2.1",
+    "@types/leaflet": "^1.7.9",
+    "@types/mapbox-gl": "^2.6.3",
+    "@types/react": "^17.0.39",
+    "@types/react-input-mask": "^3.0.1",
+    "@types/styled-components": "^5.1.24",
+    "@typescript-eslint/eslint-plugin": "^5.14.0",
+    "@typescript-eslint/parser": "^5.14.0",
+    "babel": "^6.23.0",
+    "babel-plugin-inline-react-svg": "^2.0.1",
+    "eslint": "^8.10.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.29.3",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "husky": "^7.0.4",
+    "typescript": "^4.6.2"
+  }
+}

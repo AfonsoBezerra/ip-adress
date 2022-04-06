@@ -1,0 +1,30 @@
+export interface ILocateApi {
+  ip: string,
+  continent_code: string,
+  continent_name: string,
+  country_code2: string,
+  country_code3: string,
+  country_name: string,
+  country_capital: string,
+  state_prov: string,
+  city: string,
+  zipcode: number,
+  latitude: number,
+  longitude: number,
+  is_eu: boolean,
+  calling_code: number,
+  country_tld: string,
+  languages: string,
+  country_flag: string,
+  geoname_id: number,
+  isp: string,
+  organization: string,
+  time_zone: {
+    name: string,
+    offset: number,
+    current_time: string,
+    current_time_unix: number,
+    is_dst: boolean,
+    dst_savings: number
+  }
+}
