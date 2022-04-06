@@ -65,7 +65,7 @@ export const Container = styled.div`
   color: #000;
   position: absolute;
   bottom: 0;
-  transform: translateY(57%);
+  transform: translateY(50%);
   z-index: 9;
   box-shadow: 0px 0px 10px rgba(0,0,0,0.4);
   display: flex;
@@ -86,7 +86,6 @@ export const Container = styled.div`
   }
   }
   @media(min-width: 1024px){
-    transform: translateY(50%);
     padding:30px 60px;
   .container{
     display: flex;
